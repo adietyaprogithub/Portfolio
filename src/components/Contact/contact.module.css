@@ -1,0 +1,96 @@
+.Contact_main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    padding: 0vh 13vw;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80vh;
+    width: 35vw;
+    color: whitesmoke;
+}
+.anchor1{
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 12vh;
+    padding-right: 10vw;
+    line-height: 75px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 18px;
+    gap: 8px;
+    text-align: center;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 18px;
+    gap: 5px;
+    text-align: center;
+}
+.icon{
+    font-size: 30px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    color: whitesmoke;
+
+}
+.div2P1{
+    margin-top: 13vh;
+    font-size: 30px;
+    font-family: 'calibri';
+}
+.div2P2{
+    font-size: 30px;
+    font-family: 'calibri';
+}
+.info{
+    width: 50%;
+    margin-top: 10vh;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+}
+.btn{
+    padding: 15px 20px;
+    width: 15vw;
+    margin-top: 8vh;
+    background-color: rgb(189, 0, 0);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color: red;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 5px whitesmoke;
+    outline: 1px black;
+}

@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 23vh;
+    border: 1px solid black;
+    background-color: white;
+    border: 1px solid lightgrey;
+    outline: none;
+    cursor: pointer;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.para:hover{
+    background-color: whitesmoke;
+}
+.icon{
+    height: 50px;
+    margin-bottom: 8px;
+}

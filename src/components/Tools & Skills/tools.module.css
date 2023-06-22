@@ -1,0 +1,72 @@
+.main{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.middle{
+    color: red;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.text{
+    font-size: 80px;
+    font-weight: bold;
+}
+.span{
+    padding-top: opx;
+    font-size: 20px;
+}
+.multiplebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.multiplebox1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+    width: 180px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 3px 3px lightgrey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.box:hover{
+    background-color: whitesmoke;
+    transform: scale(1.05);
+    box-shadow: 0px 3px 5px lightgrey;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.imgr{
+    height: 80px;
+    width: 80px;
+}
+.imgr_RJ{
+    height: 80px;
+    width: 120px;
+}
