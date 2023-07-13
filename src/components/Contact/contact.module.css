@@ -1,16 +1,18 @@
-.Contact_main{
+.Contact_main {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: black;
     padding: 0vh 13vw;
-}
-.main{
+  }
+  
+  .main {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-}
-.div1{
+  }
+  
+  .div1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -18,15 +20,17 @@
     height: 80vh;
     width: 35vw;
     color: whitesmoke;
-}
-.anchor1{
+  }
+  
+  .anchor1 {
     font-weight: bold;
     font-size: 75px;
     margin-top: 12vh;
     padding-right: 10vw;
     line-height: 75px;
-}
-.email{
+  }
+  
+  .email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,8 +38,9 @@
     font-size: 18px;
     gap: 8px;
     text-align: center;
-}
-.phone{
+  }
+  
+  .phone {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,27 +48,31 @@
     font-size: 18px;
     gap: 5px;
     text-align: center;
-}
-.icon{
+  }
+  
+  .icon {
     font-size: 30px;
-}
-.div2{
+  }
+  
+  .div2 {
     display: flex;
     flex-direction: column;
     width: 35vw;
     color: whitesmoke;
-
-}
-.div2P1{
+  }
+  
+  .div2P1 {
     margin-top: 13vh;
     font-size: 30px;
     font-family: 'calibri';
-}
-.div2P2{
+  }
+  
+  .div2P2 {
     font-size: 30px;
     font-family: 'calibri';
-}
-.info{
+  }
+  
+  .info {
     width: 50%;
     margin-top: 10vh;
     font-size: 18px;
@@ -74,8 +83,9 @@
     outline: none;
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
-}
-.btn{
+  }
+  
+  .btn {
     padding: 15px 20px;
     width: 15vw;
     margin-top: 8vh;
@@ -87,10 +97,55 @@
     font-size: 20px;
     cursor: pointer;
     transition: 0.1s;
-}
-.btn:hover{
+  }
+  
+  .btn:hover {
     background-color: red;
     transform: scale(1.03);
     box-shadow: 0px 0px 5px whitesmoke;
     outline: 1px black;
-}
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .Contact_main {
+      padding: 5vh 5vw;
+    }
+  
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .div1,
+    .div2 {
+      width: 80vw;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .anchor1 {
+      margin-top: 5vh;
+      padding-right: 0;
+      font-size: 40px;
+      line-height: 40px;
+    }
+  
+    .div2P1,
+    .div2P2 {
+      margin-top: 5vh;
+      font-size: 20px;
+    }
+  
+    .info {
+      width: 80%;
+      margin-top: 5vh;
+    }
+  
+    .btn {
+      width: 40vw;
+      margin-top: 5vh;
+    }
+  }
+  

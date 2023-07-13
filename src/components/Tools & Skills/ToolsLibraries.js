@@ -3,7 +3,7 @@ import styles from "./tools.module.css";
 
 export default function Skills() {
   return (
-    <div className={styles.main}>
+    <div id="Tools" className={styles.main}>
       <div className={styles.container}>
         <a className={styles.text}>
           {" "}
