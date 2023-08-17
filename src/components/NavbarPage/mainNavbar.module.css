@@ -15,6 +15,11 @@
     padding: 8vh 0vw 10vh 10vw;
     font-family: 'calibri';
   }
+
+  .profile{
+    height: 100px;
+    width: 100px;
+  }
   
   .about {
     margin-right: 16vw;
@@ -50,10 +55,18 @@
   }
   
   .img {
-    height: 50vh;
-    border-radius: 50%;
+    max-height: 60vh;
+    max-width: 80%;
+    border-radius: 20%;
     margin-right: 10vw;
+    transition: transform 0.3s ease-in-out;
   }
+  
+  .img:hover {
+    transform: scale(1.1) rotate(10deg);
+  }
+  
+
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
@@ -86,10 +99,9 @@
     }
   
     .img {
-      height: auto;
-      width: 50%;
+      max-height: 300px;
+      width: auto;
       margin-right: 0;
-      margin-bottom: 4vh;
     }
   }
   

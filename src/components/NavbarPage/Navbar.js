@@ -19,8 +19,13 @@ function Navbar() {
         <HashLink smooth to="#Contact">
           <p className={styles.link}>Contact</p>
         </HashLink>
-        <div >
-        <a href="https://drive.google.com/file/d/1le_OOVZw_ajqz-pguaric2-HH4HPaCWB/view?usp=sharing" className={styles.btn}>DOWNLOAD RESUME</a>
+        <div>
+          <a
+            href="https://drive.google.com/file/d/1B9er62Tn1_UiFeLT6hZfczWDsiyNf8Wx/view?usp=sharing"
+            className={styles.btn}
+          >
+            DOWNLOAD RESUME
+          </a>
         </div>
 
         {/*

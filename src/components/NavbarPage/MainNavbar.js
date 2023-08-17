@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Work from "../Work/Work";
 import Contact from "../Contact/Contact";
 import Skills from "../Tools & Skills/ToolsLibraries";
+import profile from "../assets/img_Aditya.jpg";
 
 function MainNavbar() {
   const sentence =
@@ -35,7 +36,7 @@ function MainNavbar() {
   }, []);
 
   return (
-    <div className={styles.navBar} id ='Home'>
+    <div className={styles.navBar} id="Home">
       <div id="home" className={styles.main}>
         <div className={styles.nav}></div>
 
@@ -59,7 +60,7 @@ function MainNavbar() {
             </div>
           </div>
           <div className={styles.split2}>
-            <img src="" className={styles.img} />
+            <img src={profile} className={styles.img} />
           </div>
         </div>
       </div>
